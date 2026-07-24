@@ -1,0 +1,11 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": { "identifier": "oneinspired:fruit_mera", "category": "Misc", "register_to_creative_menu": true },
+    "components": {
+      "minecraft:stacking": { "stack_size": 16 },
+      "minecraft:icon": "textures/items/fruit_mera",
+      "minecraft:on_use": { "event": "oneinspired:consume_fruit_mera" }
+    }
+  }
+}

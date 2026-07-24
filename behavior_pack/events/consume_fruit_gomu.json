@@ -1,0 +1,15 @@
+{
+  "event": "oneinspired:consume_fruit_gomu",
+  "actions": [
+    {
+      "run_command": {
+        "command": "give @s oneinspired:owner_gomu 1"
+      }
+    },
+    {
+      "run_command": {
+        "command": "tellraw @s {\"rawtext\":[{\"text\":\"Voce comeu a Fruta Gomu! (estado aplicado)\"}]}"
+      }
+    }
+  ]
+}

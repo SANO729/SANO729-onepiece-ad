@@ -1,0 +1,14 @@
+{
+  "skill_id": "gomu_stretch_punch",
+  "display_name": "Soco Esticado",
+  "type": "instant",
+  "damage": 6,
+  "cooldown_ms": 800,
+  "stamina_cost": 8,
+  "animation": "animations/gomu_punch",
+  "particle_effect": "particles/gomu_trail",
+  "on_use_commands": [
+    "execute @s ~ ~ ~ playsound oneinspired:gomu_punch @a ~ ~ ~ 1 1",
+    "execute @s ~ ~ ~ summon oneinspired:hitbox_gomu ~ ~ ~"
+  ]
+}

@@ -1,0 +1,7 @@
+One Piece AD — Mapeamento de nomes internos
+
+Os identificadores internos usam o prefixo oneinspired: para facilitar substituição futura.
+Exemplo:
+- oneinspired:fruit_gomu -> display name: "Gomu no Mi" (apenas display)
+
+Se quiser renomear para evitar uso de marcas, use o arquivo NAME_MAPPING.txt para ajustar display names.

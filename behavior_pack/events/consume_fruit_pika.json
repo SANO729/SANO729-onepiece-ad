@@ -1,0 +1,7 @@
+{
+  "event": "oneinspired:consume_fruit_pika",
+  "actions": [
+    { "run_command": { "command": "give @s oneinspired:owner_pika 1" } },
+    { "run_command": { "command": "tellraw @s {\"rawtext\":[{\"text\":\"Voce comeu a Fruta Pika! (estado aplicado)\"}]}" } }
+  ]
+}

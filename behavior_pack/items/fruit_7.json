@@ -1,0 +1,7 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": { "identifier": "oneinspired:fruit_7", "category": "Misc", "register_to_creative_menu": true },
+    "components": { "minecraft:icon": "textures/items/fruit_7", "minecraft:stacking": { "stack_size": 16 } }
+  }
+}

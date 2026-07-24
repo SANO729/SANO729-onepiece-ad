@@ -1,0 +1,22 @@
+{
+  "component_groups": {
+    "oneinspired:owner_gomu": {
+      "components": {
+        "minecraft:icon": "textures/items/fruit_gomu",
+        "minecraft:display_name": "\"Gomu Owner\"",
+        "oneinspired:fruit_owner": {
+          "fruit_id": "gomu",
+          "skills": ["gomu_stretch_punch"],
+          "stamina": 100,
+          "haki": 0
+        }
+      }
+    },
+    "oneinspired:owner_mera": {
+      "components": { "minecraft:icon": "textures/items/fruit_mera", "minecraft:display_name": "\"Mera Owner\"", "oneinspired:fruit_owner": { "fruit_id": "mera", "skills": ["mera_fire_blast"], "stamina": 100, "haki": 0 } }
+    },
+    "oneinspired:owner_pika": {
+      "components": { "minecraft:icon": "textures/items/fruit_pika", "minecraft:display_name": "\"Pika Owner\"", "oneinspired:fruit_owner": { "fruit_id": "pika", "skills": ["pika_teleport_strike"], "stamina": 100, "haki": 0 } }
+    }
+  }
+}
